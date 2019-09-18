@@ -1,0 +1,75 @@
+.service-placed h3{
+    font-size: 11px;
+    font-weight: 100;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+.service-placed hr{
+    width:95%;
+    margin: 0px auto;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.service-placed .checkbox{
+    width:95%;
+    margin: 0 auto;
+}
+
+.service-placed .checkbox .box{
+    width:13px;
+    height:13px;
+    background-color: #0284FF;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 2px;
+}
+.service-placed .checkbox .title{
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 100;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}
+
+.chart{
+    width:95%;
+    margin: 0 auto;
+    height:200px;
+    position: relative;
+}
+.chart .bars{
+    width:90%;
+    margin-left: 30px;
+    height:200px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3); 
+}
+.chart .y-value{
+    float: left;
+    position: absolute;
+    bottom:0;
+    
+}
+
+.chart .y-value li{
+    list-style: none;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.bar{
+    vertical-align: bottom;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 100;
+    margin-top: 62px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px; 
+    display: inline-block;
+    margin-right: 25px;
+}

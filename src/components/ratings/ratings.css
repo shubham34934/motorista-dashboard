@@ -1,0 +1,77 @@
+.rating-content{
+  width:92%;
+  margin: auto;
+}
+
+.rating-content .body{
+  text-align: center;
+  margin-top:23px;
+}
+
+.rating-content .body h2{
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 11px;
+  margin-bottom: 1px;
+}
+
+.rating-content hr{
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.rating-content .body hr{
+  border: 0;
+  height: 0;
+  border-top: 1px dashed rgba(0, 0, 0, 0.2);
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.2);
+  margin-bottom: 20px;
+  margin-top: 7px;
+  background-size: 80px 75px;
+  background-repeat: repeat;
+}
+
+.rating-content h3{
+   font-size: 11px;
+   font-weight: 100;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+
+.circle{
+  display: inline-block;
+  width: 35px;
+  height:35px;
+  border-radius:100%;
+  background-color:#F7D506;
+  line-height: 35px;
+  color:white;
+}
+
+.new-registration{
+  width:32%;
+  margin:10px auto;
+  background-color: #0284FF;
+  height:20px;
+  border-radius: 20px;
+  border-width: 0px;
+  font-size: 8px;
+  color:white;
+  margin-bottom: 8px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 5px rgba(120, 120, 120, 0.5);
+}
+
+.rating-content .body .fa.fa-star{
+  margin-right:12px;
+}
+
+.rating-content .ratings {
+  font-size: 9px;
+  font-weight: 100;
+  padding-top: 4px;
+  padding-bottom: 8px;
+  color:grey;
+}

@@ -1,0 +1,131 @@
+$half-circle-width: 260px;
+$half-circle-dashed-width: 440px;
+
+.today-container{
+    width:90%;
+    padding:1%;
+}
+
+.half-circle {
+    z-index: 5;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+    width: $half-circle-width;
+    height: $half-circle-width/2;
+    background-color: gold;
+    border-top-left-radius: $half-circle-width/2; 
+    border-top-right-radius: $half-circle-width/2; 
+    border: 0px solid gray;
+    border-bottom: 0;
+    margin:auto;
+}
+
+.half-circle-dashed {
+    z-index: 0;
+    position: absolute;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+    width: $half-circle-dashed-width;
+    height: $half-circle-dashed-width/2;
+    background-color:transparent;
+    border-top-left-radius: $half-circle-dashed-width; 
+    border-top-right-radius: $half-circle-dashed-width; 
+    border: 1px dotted grey;
+    border-bottom: 0;
+}
+
+.total-service{
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.today-container .text{
+    z-index: 10;
+    position: absolute;
+    bottom:20px;
+    left:50%;
+    transform: translateX(-50%);
+    text-align:center;
+    color: white;
+}
+
+.today-container .text .number{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.today-container .text .total-service{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.services{
+    z-index: 5;
+    text-align: center;
+    display: inline-block;
+    position:absolute;
+    bottom:0;
+    left:0;
+    font-size: 10px;
+    font-weight: 700;
+    color: gray;
+}
+
+.services .circle {
+    width:60px;
+    height:60px;
+    border-radius:100%;
+    line-height: 60px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 700;
+    box-shadow: 2px 2px 5px rgba(120, 120, 120, 0.2);
+}
+
+.services .pending-circle{
+    background-color: #FCAB8C;
+}
+
+.services .completed-circle{
+    background-color: #64E2F8;
+}
+
+.services .incomplete-circle{
+    background-color: #6EF99F;
+}
+
+.services .inprogress-circle{
+    background-color: #B59AFF;
+}
+
+.Pending{
+   bottom:25px;
+   left:-107px;
+}
+
+.Incomplete{
+    bottom:25px;
+    right:-423px;
+ }
+ 
+.Inprogress{
+    bottom:145px;
+    left:-10px;
+ }
+
+ .Completed{
+    bottom:145px;
+    left:210px;
+ }
+
+ .today-container .today{
+    font-size: 11px;
+    font-weight: 100;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+}

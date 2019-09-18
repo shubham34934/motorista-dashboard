@@ -1,0 +1,32 @@
+$carousel-height: 230px;
+$dots-height: 30px;
+
+.carousel{
+    margin-top: 10px;
+    width:100%;
+    text-align: center;
+    height:$carousel-height;
+}
+
+.slides{
+    width:90%;
+    margin:0 auto;
+    height: ($carousel-height)-$dots-height;
+    background-color: red;
+}
+
+.dots{
+    height:$dots-height;
+    width:90%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.carousel .fa{
+    font-size: 8px;
+    margin-right: 9px;
+    color: grey;
+    font-weight: 100;
+    margin-top: 20px;
+  }
+

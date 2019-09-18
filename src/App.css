@@ -1,0 +1,76 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color:#F7F8FA;
+  font-family: 'Poppins', sans-serif;
+}
+
+.app-container{
+  width:90%;  
+  margin: 30px auto;
+  margin-top:50px;
+}
+
+.dashboard-container h4{
+  font-size: 10px;
+  color:grey;
+  font-weight: 100;
+}
+
+.dashboard-container h2{
+  font-size: 15px;
+  color:black;
+  font-weight: 400;
+  margin-bottom:10px;  
+}
+.section{
+  position: relative;
+  width:48%;
+  height:300px;
+  border-radius:10px;
+  background-color:white;
+  display: inline-block;
+  margin-right:1%;
+  margin-bottom: 1.5vh;
+  vertical-align: top;
+  box-shadow: 2px 2px 5px rgba(120, 120, 120, 0.03);
+}
+
+.section-half{
+  position: relative;
+  width:23.5%;
+  height:300px;
+  border-radius:10px;
+  background-color:white;
+  display: inline-block;
+  margin-right:1%;
+  margin-bottom: 1.5vh;
+  vertical-align: top;
+  box-shadow: 2px 2px 5px rgba(120, 120, 120, 0.03);
+}
+
+@media only screen and (max-width: 850px) {
+  .section{
+    position: relative;
+    width:98%;
+    height:300px;
+    border-radius:10px;
+    background-color:white;
+    display: inline-block;
+    margin-right:1%;
+    margin-bottom: 1vh;
+  } 
+  .section-half{
+    position: relative;
+    width:48.5%;
+    height:300px;
+    border-radius:10px;
+    background-color:white;
+    display: inline-block;
+    margin-right:1%;
+    margin-bottom: 1vh;
+  }
+}
